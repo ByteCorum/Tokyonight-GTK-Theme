@@ -37,8 +37,8 @@ $orange-light: #b15c00;
 $orange-dark: #ff9e64;
 
 // Accent Color
-$accent-light: #006a83;
-$accent-dark: #27a1b9;
+$accent-light: #2e3b57;
+$accent-dark: #7aa2f7;
 
 // Grey
 $grey-050: #e9e9ed;
@@ -72,6 +72,6 @@ $default-light: $accent-light;
 $default-dark: $accent-dark;
 
 // Button
-$button-close: if($topbar == 'light', #c64343, #f7768e);
-$button-max: if($topbar == 'light', #587539, #9ece6a);
-$button-min: if($topbar == 'light', #8c6c3e, #ff9e64);
+$button-close: if($topbar == "light", #c64343, #f7768e);
+$button-max: if($topbar == "light", #587539, #9ece6a);
+$button-min: if($topbar == "light", #8c6c3e, #ff9e64);
